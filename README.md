@@ -4,6 +4,8 @@
 **[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/GuiLhermeoliveiraf/)**  
 **[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guilhermeoliiveira/)**
 
+---
+
 ## 📌 O que é uma API?
 
 API é uma **interface de comunicação entre sistemas**. Ela permite que dois sistemas diferentes conversem entre si de forma padronizada.
@@ -13,6 +15,8 @@ API é uma **interface de comunicação entre sistemas**. Ela permite que dois s
 - Você (cliente) faz um pedido (**requisição**)
 - O garçom (API) leva o pedido até a cozinha (**sistema**)
 - Depois, ele traz a comida de volta (**resposta**) para você
+
+<br>
 
 ---
 
@@ -34,6 +38,8 @@ A API atua como um intermediário entre:
 - **Processa ou consulta dados** no sistema original (ex: banco de dados)
 - **Retorna uma resposta estruturada**, geralmente em **formato JSON**
 
+<br>
+
 ---
 
 ## 📌 Exemplo – Consulta de CEP com API ViaCEP
@@ -41,10 +47,13 @@ A API atua como um intermediário entre:
 Seguindo o desafio final do curso, desenvolvi uma API que realiza a consulta de **CEPs informados pelo usuário** utilizando o serviço externo [ViaCEP](https://viacep.com.br).  
 A aplicação retorna um arquivo JSON contendo informações como **bairro**, **localidade**, **estado**, etc.
 
+<br>
 
 ---
 
-## 🧪 Desafio – Gerador de URL válida
+#  Desafio
+
+### 🏗️ Gerador de URL válida
 
 Criei uma classe para ajudar na construção de uma URL que será usada para fazer a consulta à API.
 
@@ -74,6 +83,8 @@ public class Endereco {
 - O método `setUrl` **remove o hífen** do CEP (`cep.replace("-", "")`)
 - Monta a URL no formato correto da API ViaCEP
 - Armazena essa URL na variável interna `url`
+
+<br>
 
 --- 
 
@@ -114,6 +125,8 @@ public class Busca {
 - A aplicação envia uma requisição para a **URL da API (ViaCEP)**.
 - O programa espera a resposta do servidor (isso pode levar alguns milissegundos ou segundos).
 - Ao receber a resposta, ela é **armazenada como texto**, geralmente no formato **JSON**.
+
+<br>
 
 ---
 
@@ -180,6 +193,8 @@ public class Principal {
   - Mostra todos os dados coletados
   - Salva tudo em um arquivo chamado `cep.json`
 
+<br>
+
 ---
 
 ## 📦 Resultado Esperado
@@ -224,6 +239,8 @@ Passei os seguintes CEPs:
   }
 ]
 ```
+
+<br>
 
 ---
 
