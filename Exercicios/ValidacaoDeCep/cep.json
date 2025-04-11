@@ -1,0 +1,29 @@
+[{
+  "cep": "35669-000",
+  "logradouro": "",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "",
+  "localidade": "Papagaios",
+  "uf": "MG",
+  "estado": "Minas Gerais",
+  "regiao": "Sudeste",
+  "ibge": "3146909",
+  "gia": "",
+  "ddd": "37",
+  "siafi": "4937"
+}, {
+  "cep": "35661-028",
+  "logradouro": "Rua Doutor Aloísio Procópio Lobato Menezes",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Senador Valadares",
+  "localidade": "Pará de Minas",
+  "uf": "MG",
+  "estado": "Minas Gerais",
+  "regiao": "Sudeste",
+  "ibge": "3147105",
+  "gia": "",
+  "ddd": "37",
+  "siafi": "4941"
+}]
